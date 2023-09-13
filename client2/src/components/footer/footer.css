@@ -1,0 +1,33 @@
+.subfooter {
+    background-color: #d6e0ec;
+    padding: 20px;
+}
+
+.subfooter-container {
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.hover-link {
+    font-family: "Varela Round", sans-serif;
+    color: #183b56;
+}
+
+.hover-link:hover {
+    cursor: pointer;
+    color: #2294ed;
+    transition: 0.2s ease-out;
+}
